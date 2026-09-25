@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="500" viewBox="0 0 920 500">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10" fill="none" stroke="#303948" stroke-width="1.5"/></marker><marker id="triangle" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto"><path d="M0 0 L12 7 L0 14 Z" fill="#fff" stroke="#303948" stroke-width="1.5"/></marker></defs>
+<rect width="100%" height="100%" fill="#f8fafc"/>
+<path d="M175 205 L400 135" fill="none" stroke="#303948" stroke-width="2" marker-end="url(#triangle)"/>
+<text x="287.5" y="162.0" text-anchor="middle" font-size="15" fill="#475569">implementa</text>
+<path d="M585 205 L525 135" fill="none" stroke="#303948" stroke-width="2" marker-end="url(#triangle)"/>
+<text x="555.0" y="162.0" text-anchor="middle" font-size="15" fill="#475569">implementa</text>
+<path d="M580 205 L545 135" fill="none" stroke="#303948" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="562.5" y="162.0" text-anchor="middle" font-size="15" fill="#475569">envolve</text>
+<path d="M140 380 L475 325" fill="none" stroke="#303948" stroke-width="2" marker-end="url(#triangle)"/>
+<path d="M400 380 L580 325" fill="none" stroke="#303948" stroke-width="2" marker-end="url(#triangle)"/>
+<path d="M720 380 L690 325" fill="none" stroke="#303948" stroke-width="2" marker-end="url(#triangle)"/>
+<rect x="340" y="30" width="250" height="105" rx="5" fill="#fff" stroke="#334155" stroke-width="2"/>
+<rect x="340" y="30" width="250" height="40" rx="5" fill="#e8f0ff"/>
+<path d="M340 70 H590" stroke="#334155" stroke-width="2"/>
+<text x="350" y="57" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#172554">«interface» Curso</text>
+<text x="352" y="96" font-family="Arial, sans-serif" font-size="15" fill="#334155">+ getCargaHoraria(): int</text>
+<text x="352" y="120" font-family="Arial, sans-serif" font-size="15" fill="#334155">+ getDescricao(): String</text>
+<rect x="55" y="205" width="245" height="100" rx="5" fill="#fff" stroke="#334155" stroke-width="2"/>
+<rect x="55" y="205" width="245" height="40" rx="5" fill="#e8f0ff"/>
+<path d="M55 245 H300" stroke="#334155" stroke-width="2"/>
+<text x="65" y="232" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#172554">CursoGraduacao</text>
+<text x="67" y="271" font-family="Arial, sans-serif" font-size="15" fill="#334155">- cargaHoraria: int</text>
+<text x="67" y="295" font-family="Arial, sans-serif" font-size="15" fill="#334155">+ getDescricao(): String</text>
+<rect x="450" y="205" width="270" height="120" rx="5" fill="#fff" stroke="#334155" stroke-width="2"/>
+<rect x="450" y="205" width="270" height="40" rx="5" fill="#e8f0ff"/>
+<path d="M450 245 H720" stroke="#334155" stroke-width="2"/>
+<text x="460" y="232" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#172554">«abstract» CursoDecorator</text>
+<text x="462" y="271" font-family="Arial, sans-serif" font-size="15" fill="#334155">- curso: Curso</text>
+<text x="462" y="295" font-family="Arial, sans-serif" font-size="15" fill="#334155">+ getCargaHoraria(): int</text>
+<text x="462" y="319" font-family="Arial, sans-serif" font-size="15" fill="#334155">+ getDescricao(): String</text>
+<rect x="50" y="380" width="180" height="70" rx="5" fill="#fff" stroke="#334155" stroke-width="2"/>
+<rect x="50" y="380" width="180" height="40" rx="5" fill="#e8f0ff"/>
+<path d="M50 420 H230" stroke="#334155" stroke-width="2"/>
+<text x="60" y="407" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#172554">Estagio</text>
+<text x="62" y="446" font-family="Arial, sans-serif" font-size="15" fill="#334155">+ horasAdicionais(): int</text>
+<rect x="260" y="380" width="285" height="70" rx="5" fill="#fff" stroke="#334155" stroke-width="2"/>
+<rect x="260" y="380" width="285" height="40" rx="5" fill="#e8f0ff"/>
+<path d="M260 420 H545" stroke="#334155" stroke-width="2"/>
+<text x="270" y="407" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#172554">AtividadesComplementares</text>
+<text x="272" y="446" font-family="Arial, sans-serif" font-size="15" fill="#334155">+ horasAdicionais(): int</text>
+<rect x="575" y="380" width="285" height="70" rx="5" fill="#fff" stroke="#334155" stroke-width="2"/>
+<rect x="575" y="380" width="285" height="40" rx="5" fill="#e8f0ff"/>
+<path d="M575 420 H860" stroke="#334155" stroke-width="2"/>
+<text x="585" y="407" font-family="Arial, sans-serif" font-size="17" font-weight="bold" fill="#172554">TrabalhoConclusaoCurso</text>
+<text x="587" y="446" font-family="Arial, sans-serif" font-size="15" fill="#334155">+ horasAdicionais(): int</text>
+</svg>
